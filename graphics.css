@@ -119,3 +119,36 @@ html {
             box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
  
         } 
+
+
+        .git{
+
+          background-color: #24292e;
+          color: white;
+          font-weight: bold;
+          padding-top: 9px;
+          padding-left: 6px;
+          padding-right: 6px;
+          border-radius: 0 0 12px 12px;
+          margin-left: 998px;
+          top: 0px;
+          position: absolute;
+        }
+
+
+        .git:hover{
+
+          background-color: whitesmoke;
+          color: #24292e;
+        }
+
+  .gitacr
+               {
+                  color: white;
+                  text-decoration: none;
+               }
+  .gitacr:hover
+               {
+                  color: #24292e; 
+ 
+              }
