@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="graphics.css">
+
+
+ <script>
+ 
+
+var frames = 1;
+var frmArr = ["app.html", "https://www.google.com/webhp?igu=1", "https://www.youtube.com/embed/cVEemOmHw9Y",  "http://www.bing.com", "https://www.youtube.com/embed/SQIbeAk-bFA"]
+
+
+function myFunction() { 
+
+  var iframe = document.getElementById('myFrame');
+  document.getElementById('myFrame').src = frmArr[frames];
+ 
+  if (frames == 4) frames = 0;
+
+
+  else 
+    frames++;  
+
+
+}  
+
+ 
+
+</script>
+
+
+</head>
+ 
+<body >
+ 
+ <a  onmouseover="window.location.href=window.location.href" style="font-weight: bold;font-size: 42px;">Refresh</a> <br><br>
+ 
+ <a  style="font-weight: bold;font-size: 22px;" onclick="myFunction()" >< Swipe iframe ></a> 
+
+ 
+
+<br><br>
+
+ 
+
+<a href="get-started.html">
+<button class="btn" title="Click here to read instructions">Get started!
+</button>
+</a>
+
+
+
+
+
+
+
+
+   <footer><blockquote> <span class="credits"> - Created by <a href="" class="name">Meet kasediya</a></span></blockquote>
+ </footer>
+
+
+<div class="smartphone">
+	 <div class="Device-type Shell">
+        <div class="home" onmouseover="myFunction()"></div>
+     </div>
+ 
+          <div class="content">
+
+    <iframe src="app.html" style="width:100%;border:none;height:100%;margin: 0 auto; display: block;" id="myFrame" name="search_iframe" border="0" frameborder="0" allowtransparency="1" />
+
+          </div>
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
