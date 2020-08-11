@@ -13,7 +13,7 @@ Open 'Mobile.html' in any browser of your choice<br>
 Enjoy! :)
 
 
-## Built With
+## 🛠️ Built With
 
 * [Sublime] - For editing
 
@@ -21,8 +21,8 @@ Enjoy! :)
 
 * **Meet kasediya** *
 
-Linkedin - https://www.linkedin.com/in/meet-kasediya-6308031ab/<br>
-codepen -  https://codepen.io/Meet_kasediya
+Linkedin - https://www.linkedin.com/in/meet-kasediya-6308031ab/ 🔗<br>
+codepen -  https://codepen.io/Meet_kasediya 🔗
 
 
 
@@ -57,10 +57,10 @@ other sources on internet.
 
 * iPhone 11 Pro(Youtube):-
 
-Watch now: https://www.youtube.com/watch?v=cVEemOmHw9Y<br>
-Learn more at https://apple.co/2m5FP8w
+Watch now: https://www.youtube.com/watch?v=cVEemOmHw9Y 🔗<br>
+Learn more at https://apple.co/2m5FP8w 🔗
 
 * iPhone SE(Youtube)
 
-Watch now: https://www.youtube.com/watch?v=SQIbeAk-bFA<br>
-Learn more at https://www.apple.com/iphone-SE
+Watch now: https://www.youtube.com/watch?v=SQIbeAk-bFA 🔗<br>
+Learn more at https://www.apple.com/iphone-SE 🔗
