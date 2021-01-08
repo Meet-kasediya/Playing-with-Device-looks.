@@ -34,10 +34,6 @@ codepen -  https://codepen.io/Meet_kasediya 🔗
  
 ## Video credits:
 
-* iPhone 11 Pro(Youtube):-
-
-Watch now: https://www.youtube.com/watch?v=cVEemOmHw9Y 🔗<br>
-Learn more at https://apple.co/2m5FP8w 🔗
 
 * iPhone SE(Youtube)
 
