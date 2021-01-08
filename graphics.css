@@ -1,0 +1,128 @@
+
+ 
+ a {
+  color: #809fff;
+} 
+ 
+
+body {
+background-color: whitesmoke;
+font-family:"Lato", sans-serif;
+ 
+}
+
+.smartphone {
+  position: fixed;
+  width: 340px;
+  height: 575px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 80px;
+  border-radius: 36px;
+  margin-left: 400px;
+  top: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 1.04), 0 12px 12px rgba(0, 0, 0, 1.04);
+}
+
+ 
+
+/* The horizontal line on the top of the device */
+.smartphone:before {
+  border: 3px whitesmoke solid;
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+ 
+/* circle  */
+.smartphone:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-top-color: red solid 3px;
+}
+
+.smartphone .content {
+  width: 340px;
+  height: 575px;
+  background: #fef6ec;
+
+}
+.smartphone .content:hover {
+  width: 340px;
+  height: 575px;
+  background: white;
+}
+
+.Device-type.Shell .home{border-radius:100%;width:56px;height:56px;position:absolute;left:50%;margin-left:-34px;bottom:-64px;z-index:3;background:#303233;background:linear-gradient(135deg, #303233 0%, #b5b7b9 50%, #f0f2f2 69%, #303233 100%)}
+.Device-type.Shell .home:before{background:black;position:absolute;content:'';border-radius:100%;width:calc(100% - 8px);height:calc(100% - 8px);top:4px;left:4px}
+ 
+html {
+  height: 100%;
+}
+
+.credits{   
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 25px;
+ }
+
+.name{
+  text-decoration: none;
+}
+
+
+          .btn { 
+            cursor: pointer; 
+            border: 1px solid #3498db; 
+            background-color: transparent; 
+            height: 50px; 
+            width: 200px; 
+            color: #3498db; 
+            font-size: 1.5em; 
+            transition: 1s;
+            position: absolute;
+            border-radius: 12px 12px 12px 12px;
+            right: 40px;
+            bottom: 25px;
+        } 
+
+          .btn:hover { 
+ 
+            border: 1px solid pink; 
+            color: green; 
+            transition: background-color 0.2s;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6); 
+ 
+        } 
+
+.gitacr{
+  text-transform: uppercase;
+ color: black;
+ background-color: whitesmoke;
+ text-decoration: none;
+ font-size: 20px;
+ border-radius: 4px;
+ transition: 0.4s;
+ padding: 11px;
+ position: fixed;
+ right: 0;
+ top: 0;
+
+}
+.gitacr:hover{
+  background-color: #1b1b1b;
+  color: whitesmoke;
+}
