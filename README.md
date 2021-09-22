@@ -39,3 +39,5 @@ codepen -  https://codepen.io/Meet_kasediya 🔗
 
 Watch now: https://www.youtube.com/watch?v=SQIbeAk-bFA 🔗<br>
 Learn more at https://www.apple.com/iphone-SE 🔗
+
+- Scan To Download [Zip]<br><img src='https://github.com/Meet-kasediya/Playing-with-Device-looks./blob/master/qrcode_github.com.png' alt="https://github.com/Meet-kasediya/Playing-with-Device-looks./blob/master/qrcode_github.com.png" height='100' width='105'>
