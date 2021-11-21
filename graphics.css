@@ -1,0 +1,151 @@
+:root{
+  --ht: calc((var(--bht) - var(--htminus)));
+  --wt: calc((var(--ht) - var(--wtminus)));
+  --bht: 678px;
+  --htminus: 120px;
+  --wtminus: 220px;
+}
+
+  @media (max-height:578px) {
+  :root {
+    --bht: 578px;
+    --wtminus: 140px
+  }
+  @media (max-height:478px) {
+  :root {
+    --bht: 478px;
+    --wtminus: 90px;
+  }
+  }
+}
+ a {
+  color: #809fff;
+} 
+ 
+
+body {
+background-color: whitesmoke;
+font-family:"Lato", sans-serif;
+height: var(--bht);
+overflow: hidden;
+ 
+}
+
+.smartphone {
+  position: fixed;
+  width: var(--wt);
+  height: var(--ht);
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 80px;
+  border-radius: 36px;
+  margin-left: 400px;
+  top: 10px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 1.04), 0 7px 7px rgba(0, 0, 0, 1.04);
+}
+
+ 
+
+/* The horizontal line on the top of the device */
+.smartphone:before {
+  border: 2px rgba(245, 245, 245, 0.548) solid;
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(51, 51, 51, 0.603);
+  border-radius: 10px;
+}
+ 
+/* circle  */
+.smartphone:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+ 
+ 
+}
+
+.smartphone .content {
+  width: var(--wt);
+  height: var(--ht);
+  background: #fef6ec;
+ 
+
+}
+.smartphone .content:hover {
+  width: var(--wt);
+  height: var(--ht);
+  background: white;
+}
+
+.Device-type.Shell .home{border-radius:100%;width:57px;height:57px;position:absolute;left:51%;margin-left:-34px;bottom:-64px;z-index:3;background:#30323398;background:linear-gradient(135deg, #3032339a 0%, #b5b7b983 50%, #f0f2f2c4 69%, #30323394 100%)}
+.Device-type.Shell .home:before{background:rgba(0, 0, 0, 0.918);position:absolute;content:'';border-radius:100%;width:calc(100% - 8px);height:calc(100% - 8px);top:4px;left:4px}
+ 
+
+.credits{   
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 25px;
+ }
+
+.name{
+  text-decoration: none;
+}
+
+
+          .btn { 
+            cursor: pointer; 
+            border: 1px solid #3498db; 
+            background-color: transparent; 
+            height: 50px; 
+            width: 200px; 
+            color: #3498db; 
+            font-size: 1.5em; 
+            transition: 1s;
+            position: absolute;
+            border-radius: 12px 12px 12px 12px;
+            right: 40px;
+            bottom: 25px;
+        } 
+
+          .btn:hover { 
+ 
+            border: 1px solid pink; 
+            color: green; 
+            transition: background-color 0.2s;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6); 
+ 
+        } 
+
+.gitacr{
+  text-transform: uppercase;
+ color: black;
+ background-color: whitesmoke;
+ text-decoration: none;
+ font-size: 20px;
+ border-radius: 4px;
+ transition: 0.4s;
+ padding: 11px;
+ position: fixed;
+ right: 0;
+ top: 0;
+
+}
+.gitacr:hover{
+  background-color: #1b1b1b;
+  color: whitesmoke;
+}
+.content{
+  background-color: #1b1b1b;
+}
+  
